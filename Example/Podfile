@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VLViewController_Example' do
+  pod 'VLViewController', :path => '../'
+
+  target 'VLViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
